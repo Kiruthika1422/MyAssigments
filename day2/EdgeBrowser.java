@@ -6,7 +6,7 @@ public class EdgeBrowser {
 		// TODO Auto-generated method stub
 		Browser test = new Browser();
 		
-		test.launchBrowser(null);
+		System.out.println(test.launchBrowser("chrome"));
 		test.loadUrl();
 
 	}

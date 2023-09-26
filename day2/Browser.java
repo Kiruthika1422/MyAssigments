@@ -14,9 +14,9 @@ public class Browser {
 	public static void main() {
 		
 		Browser test =new Browser();
-		test.launchBrowser(null);
+		System.out.println(test.launchBrowser("chrome"));
 		test.loadUrl();
-		System.out.println("this method will be called by class");
+		
 		
 	}
 }
